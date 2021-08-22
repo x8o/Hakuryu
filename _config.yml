@@ -1,13 +1,13 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+title: Hakuryu | AI Artist
+email: "shigeru@rim-inc.org"
+description: "My AI artworks"
+url: "https://x8o.github.io"
+baseurl: "/hakuryu"
 facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
+twitter_username: "hakuryu_artist"
+instagram_username: "hakuryu_artist"
+github_username:  "x8o"
 deviantart_username: ""
 flickr_username: ""
 discus_shortname: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://x8o.github.io/hakuryu/gallery/"  
+  - JOURNAL: "https://x8o.github.io/hakuryu/journal/"
+  - ABOUT: "https://x8o.github.io/hakuryu/about/"
 
 # All translation keys
 translations:
