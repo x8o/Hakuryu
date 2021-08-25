@@ -91,7 +91,7 @@ images:
  {% if site.twitter_username %}
 			<li>
    <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#dddddd; target="_blank" title="Twitter">
+color:#dddddd; target="_blank" title="Twitter" onclick="ga('send','event','iconclick','click','Twitter', 1);">>
                        <i class="fa fa-twitter"></i>
                      </span>
 </a></li>
@@ -99,7 +99,7 @@ color:#dddddd; target="_blank" title="Twitter">
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#dddddd; target="_blank" title="Instagram">
+color:#dddddd; target="_blank" title="Instagram" onclick="ga('send','event','iconclick','click','Instagram', 1);">>
                        <i class="fa fa-instagram"></i>
                      </span>
 </a></li>
@@ -108,7 +108,7 @@ color:#dddddd; target="_blank" title="Instagram">
                     
 <li>
     <a href="mailto:{{ site.email }}" style="
-color:#dddddd; target="_blank" title="Email">
+color:#dddddd; target="_blank" title="Email" onclick="ga('send','event','iconclick','click','Email', 1);">>
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
 	
