@@ -16,6 +16,15 @@ images:
 <html class="no-js" lang="en">
 <head>
 	<meta content="charset=utf-8">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TL7SYVLV3M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TL7SYVLV3M');
+</script>
 
 <!-- CSS -->
      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -82,7 +91,7 @@ images:
  {% if site.twitter_username %}
 			<li>
    <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#dddddd; target="_blank" title="Twitter">
+color:#dddddd; target="_blank" title="Twitter" onclick="ga('send','event','iconclick','click','Twitter', 1);">
                        <i class="fa fa-twitter"></i>
                      </span>
 </a></li>
@@ -90,7 +99,7 @@ color:#dddddd; target="_blank" title="Twitter">
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#dddddd; target="_blank" title="Instagram">
+color:#dddddd; target="_blank" title="Instagram" onclick="ga('send','event','iconclick','click','Instagram', 1);">
                        <i class="fa fa-instagram"></i>
                      </span>
 </a></li>
@@ -99,7 +108,7 @@ color:#dddddd; target="_blank" title="Instagram">
                     
 <li>
     <a href="mailto:{{ site.email }}" style="
-color:#dddddd; target="_blank" title="Email">
+color:#dddddd; target="_blank" title="Email" onclick="ga('send','event','iconclick','click','Email', 1);">
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
 	

@@ -4,6 +4,15 @@
 {% include head.html %}
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TL7SYVLV3M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TL7SYVLV3M');
+</script>
 {% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/journal" />{% endif %}
 </head>
 
