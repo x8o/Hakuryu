@@ -4,7 +4,7 @@ title:      "I'm Hakuryu, AI Artist"
 subtitle:   "My 1st journal"
 active: journal
 image:
-  feature: "pc001.jpg"
+  feature: "pc001.jpeg"
 date:       2021-08-25
 header-img: "img/postcover/pc001.jpg"
 tags: []
